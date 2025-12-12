@@ -39,8 +39,13 @@ behavior over performance optimization.
 
 ## FPGA Validation
 The processor was tested on FPGA hardware using a predefined instruction
-memory program. Register values and seven-segment display outputs were
-verified against expected results.
+memory program. During execution, the FPGA board displays:
+
+- **Current Program Counter (PC) value**
+- **Value being written back to the register file**
+
+These outputs were used to verify correct instruction sequencing and
+write-back behavior for each pipeline stage.
 
 📄 **FPGA Test Documentation:**  
 [FPGA Instruction Memory Test](docs/instruction_mem_test_comments.pdf)
