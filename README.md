@@ -43,7 +43,7 @@ memory program. Register values and seven-segment display outputs were
 verified against expected results.
 
 📄 **FPGA Test Documentation:**  
-[FPGA Instruction Memory Test](docs/fpga_instruction_memory_test.pdf)
+[FPGA Instruction Memory Test](docs/instruction_mem_test_comments.pdf)
 
 ---
 
@@ -51,3 +51,5 @@ verified against expected results.
 ```text
 src/    Verilog source files for the processor
 docs/   FPGA test documentation and diagrams
+tb/    Verilog tb files
+mem/  Instruction and Data Memory files we used to test our pipeline
